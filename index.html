@@ -20,6 +20,110 @@
   <body>
     <main class="main-conteiner">
       <div class="conteiner">
+        <!--Left part-->
+
+        <aside class="aside">
+          <!--about-section-->
+
+          <img
+            src="./img/foto.jpg"
+            srcset="./img/foto.jpg 1x, ./img/foto@2x.jpg 2x"
+            alt="foto"
+            width="370"
+            height="354"
+            class="foto-img"
+          />
+
+          <section class="about">
+            <h2 class="secondary-heder aside-secondary-heder">
+              Особисті данні
+            </h2>
+            <table class="about-table">
+              <tr class="table-tr">
+                <th class="table-th">ім’я:</th>
+                <td class="table-td">Ірина Кулик</td>
+              </tr>
+              <tr class="table-tr">
+                <th class="table-th">адреса:</th>
+                <td class="table-td">вул. Майбутнього, 24 07101 м.Славутич</td>
+              </tr>
+              <tr class="table-tr">
+                <th class="table-th">тел:</th>
+                <td class="table-td">
+                  <a href="tel:+380631304494" class="adress-link link"
+                    >+38 063 130 44 94</a
+                  >
+                </td>
+              </tr>
+              <tr class="table-tr">
+                <th class="table-th">Email:</th>
+                <td class="table-td">
+                  <a
+                    href="mailto:irisha.kulik@gmail.com"
+                    class="adress-link link"
+                    >irisha.kulik@gmail.com</a
+                  >
+                </td>
+              </tr>
+              <tr class="table-tr">
+                <th class="table-th">дата народження:</th>
+                <td class="table-td">23.04.1983</td>
+              </tr>
+              <tr class="table-tr">
+                <th class="table-th">місце народження:</th>
+                <td class="table-td">м. Маріуполь</td>
+              </tr>
+              <tr class="table-tr">
+                <th class="table-th">сімейний стан:</th>
+                <td class="table-td">заміжня, маю троїх дітей</td>
+              </tr>
+            </table>
+          </section>
+
+          <!--/about-section-->
+
+          <!--skills-section-->
+
+          <section class="skills">
+            <h2 class="secondary-heder aside-secondary-heder">Навички</h2>
+            <ul class="skills-list list">
+              <li class="skills-item">Комунікація</li>
+              <li class="skills-item">Відповідальність</li>
+              <li class="skills-item">Досвідченний користувач ПК</li>
+            </ul>
+          </section>
+
+          <!--/skills-section-->
+
+          <!--int-section-->
+
+          <section class="int">
+            <h2 class="secondary-heder aside-secondary-heder">Інтереси</h2>
+            <ul class="int-list list">
+              <li class="int-item">Подорожі</li>
+              <li class="int-item">Розвиток</li>
+              <li class="int-item">Фотографія</li>
+            </ul>
+          </section>
+
+          <!--/int-section-->
+
+          <!--lang-section-->
+
+          <section class="lang">
+            <h2 class="secondary-heder aside-secondary-heder">Мови</h2>
+            <ul class="lang-list list">
+              <li class="lang-item">Українська: вільно</li>
+              <li class="lang-item">Російська: вільно</li>
+              <li class="lang-item">Англійська: добре</li>
+            </ul>
+          </section>
+
+          <!--/lang-section-->
+        </aside>
+
+        <!--/Left part-->
+
         <!--Right part-->
 
         <!--hero-section-->
@@ -28,7 +132,7 @@
           <section class="hero-section">
             <p class="bold-text">Full Stack Developer</p>
             <h1 class="hero-name">Ірина Кулик</h1>
-            <p class="text">
+            <p class="text hero-text">
               Я маю технічну освіту та досвід роботи в машинобудівельній галузі.
               Вмію комунікувати з людьми, знаходити шляхи вирішення поставлених
               завдань. Нещодавно дуже зацікавилася сферою IT та вибрала для себе
@@ -42,16 +146,17 @@
           <!--work-section-->
 
           <section class="work">
-            <h2 class="secondary-header">Досвід роботи</h2>
-            <ul class="work-list">
+            <h2 class="secondary-header right-header">Досвід роботи</h2>
+            <ul class="work-list list">
               <li class="work-item">
-                <h3 class="work-name">
-                  Інженер-конструктор 3 категорії ВАТ”ГСКТІ”
+                <h3 class="work-name third-header">
+                  Інженер-конструктор 3 категорії
+                  <span class="akcent-color">ВАТ”ГСКТІ”</span>
                 </h3>
                 <p class="date-text text">
                   Серпень 2008 - Вересень 2017 | Україна, Маріуполь
                 </p>
-                <ul class="responsibilities-list">
+                <ul class="responsibilities-list list">
                   <li class="responsibilities-item">
                     Розроблення конструкторської документації.
                   </li>
@@ -65,13 +170,14 @@
                 </ul>
               </li>
               <li class="work-item">
-                <h2 class="secondary-header">
-                  Інженер-конструктор без категорії ВАТ”ГСКТІ”
-                </h2>
+                <h3 class="secondary-header right-header">
+                  Інженер-конструктор без категорії
+                  <span class="akcent-color">ВАТ”ГСКТІ”</span>
+                </h3>
                 <p class="date-text text">
                   Квітень 2008 -Серпень 2008 | Україна, Маріуполь
                 </p>
-                <ul class="responsibilities-list">
+                <ul class="responsibilities-list list">
                   <li class="responsibilities-item">
                     Розроблення конструкторської документації.
                   </li>
@@ -91,12 +197,12 @@
           <!--education-section-->
 
           <section class="education">
-            <h2 class="secondary-header">Освіта</h2>
-            <h3 class="university-name">
+            <h2 class="secondary-header right-header">Освіта</h2>
+            <h3 class="university-name third-header">
               Національний технічний університет України “Київський
               Політехнічний інститут”
             </h3>
-            <ul class="university-list">
+            <ul class="university-list list">
               <li class="university-item">
                 <h4>Спеціалист</h4>
                 <p class="university-text text">
@@ -126,10 +232,12 @@
           <!--courses-section-->
 
           <section class="courses">
-            <h2>Курси</h2>
-            <ul class="courses-list">
+            <h2 class="secondary-header right-header">Курси</h2>
+            <ul class="courses-list list">
               <li class="courses-item">
-                <h3 class="courses-name">«Javascript: занурення»</h3>
+                <h3 class="courses-name third-header">
+                  «Javascript: занурення»
+                </h3>
                 <p class="company-name text">wayup</p>
                 <p class="date-text text">Серпень 2022</p>
                 <p class="text">сертифікат JSP35394141</p>
@@ -141,13 +249,15 @@
                 <p class="text">сертифікат VS49379161</p>
               </li>
               <li class="courses-item">
-                <h3 class="courses-name">Веб-верстальщик: начало</h3>
+                <h3 class="courses-name third-header">
+                  Веб-верстальщик: начало
+                </h3>
                 <p class="company-name text">wayup</p>
                 <p class="date-text text">Червень 2022</p>
                 <p class="text">сертифікат VVN50379161</p>
               </li>
               <li class="courses-item">
-                <h3 class="courses-name">
+                <h3 class="courses-name third-header">
                   Основи тестування програмного забезпечення
                 </h3>
                 <p class="company-name text">тренінговий центр "QATestLab"</p>
@@ -161,109 +271,6 @@
         </div>
 
         <!--/Right part-->
-
-        <!--Left part-->
-
-        <aside class="aside">
-          <!--about-section-->
-
-          <section class="about">
-            <img
-              src="./img/foto.jpg"
-              srcset="./img/foto.jpg 1x, ./img/foto@2x.jpg 2x"
-              alt="foto"
-              width="370"
-              height="354"
-              class="foto-img"
-            />
-            <h2 class="secondary-heder aside-secondary-heder">
-              Особисті данні
-            </h2>
-            <table>
-              <tr>
-                <th>ім’я:</th>
-                <td>Ірина Кулик</td>
-              </tr>
-              <tr>
-                <th>адреса:</th>
-                <td>вул. Майбутнього, 24 07101 м.Славутич</td>
-              </tr>
-              <tr>
-                <th>тел:</th>
-                <td>
-                  <a href="tel:+380631304494" class="adress-link link"
-                    >+38 063 130 44 94</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <th>Email:</th>
-                <td>
-                  <a
-                    href="mailto:irisha.kulik@gmail.com"
-                    class="adress-link link"
-                    >irisha.kulik@gmail.com</a
-                  >
-                </td>
-              </tr>
-              <tr>
-                <th>дата народження:</th>
-                <td>23.04.1983</td>
-              </tr>
-              <tr>
-                <th>місце народження:</th>
-                <td>м. Маріуполь</td>
-              </tr>
-              <tr>
-                <th>сімейний стан:</th>
-                <td>заміжня, маю троїх дітей</td>
-              </tr>
-            </table>
-          </section>
-
-          <!--/about-section-->
-
-          <!--skills-section-->
-
-          <section class="skills">
-            <h2 class="secondary-heder aside-secondary-heder">Навички</h2>
-            <ul class="skills-list list">
-              <li class="skills-item">Комунікація</li>
-              <li class="skills-item">Відповідальність</li>
-              <li class="skills-item">Досвідченний користувач ПК</li>
-            </ul>
-          </section>
-
-          <!--/skills-section-->
-
-          <!--int-section-->
-
-          <section class="int">
-            <h2 class="secondary-heder aside-secondary-heder">Навички</h2>
-            <ul class="int-list list">
-              <li class="int-item">Подорожі</li>
-              <li class="int-item">Розвиток</li>
-              <li class="int-item">Фотографія</li>
-            </ul>
-          </section>
-
-          <!--/int-section-->
-
-          <!--lang-section-->
-
-          <section class="lang">
-            <h2 class="secondary-heder aside-secondary-heder">Навички</h2>
-            <ul class="lang-list list">
-              <li class="lang-item">Українська: вільно</li>
-              <li class="lang-item">Російська: вільно</li>
-              <li class="lang-item">Англійська: добре</li>
-            </ul>
-          </section>
-
-          <!--/lang-section-->
-        </aside>
-
-        <!--/Left part-->
       </div>
     </main>
   </body>
