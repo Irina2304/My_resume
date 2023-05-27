@@ -94,6 +94,36 @@ body {
     margin-right: 17px;
 }
 
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.social-list-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--resume-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon{
+    fill: var(--akcent-color)
+
+}
+
+.social-list-icon {
+    margin: 0 auto;
+    display: block;
+    fill: var(--a-side-backgraund)
+}
+
 .aside-secondary-heder {
     color: var(--a-side-text-color);
     margin-bottom: 8px;
@@ -122,6 +152,7 @@ body {
 
 .adress-link {
     color: inherit;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adress-link:hover,
@@ -219,6 +250,7 @@ body {
     display: block;
     max-width: 410px;
     color: var(--akcent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .university-name:hover,
@@ -239,6 +271,7 @@ body {
     font-size: 16px;
     line-height: 1.25;
     color: var(--akcent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .company-name:hover,
